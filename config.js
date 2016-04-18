@@ -18,3 +18,19 @@ module.exports = {
 
   locale: process.env.LOCALE || "pt",
 };
+
+/*
+curl -X POST 'https://gdg-abc.slack.com/api/users.admin.invite' \
+--data 'email=fioalpha@gmail.com&token=xoxp-7372960210-7372629744-35644399968-0319f2cfeb&set_active=true' \
+--compressed
+
+
+curl -X POST 'https://gdg-abc.slack.com/api/users.admin.invite'\
+--date 'token=xoxp-7372960210-7372629744-35582044738-20d2a3972d'\
+--compressed
+
+
+client_id=7372960210.35641485493
+client_secret=7b8f3ea23c9b5a8b1bcdc7063550f5e7
+code=7372960210.35639601552.5ac4163301
+*/
